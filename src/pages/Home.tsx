@@ -37,7 +37,7 @@ export default function Home() {
             <button
               onClick={() => navigate('/signup')}
               className="font-mono font-medium px-8 py-4 rounded min-h-[44px] min-w-[180px] transition-all duration-150 hover:scale-[1.02] active:scale-[0.97] focus:outline-none focus:ring-2 focus:ring-offset-2"
-              style={{ backgroundColor: 'var(--color-accent)', color: '#ffffff', focusRingColor: 'var(--color-accent)' }}
+              style={{ backgroundColor: 'var(--color-accent)', color: '#ffffff',}}
             >
               Start selling free
             </button>
