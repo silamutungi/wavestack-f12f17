@@ -43,7 +43,7 @@ export default function Login() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="font-mono px-4 py-3 rounded min-h-[44px] focus:outline-none focus:ring-2"
-              style={{ backgroundColor: 'var(--color-bg-muted)', color: 'var(--color-text)', border: '1px solid var(--color-border)', focusRingColor: 'var(--color-accent)' }}
+              style={{ backgroundColor: 'var(--color-bg-muted)', color: 'var(--color-text)', border: '1px solid var(--color-border)',}}
               placeholder="you@example.com"
             />
           </div>
